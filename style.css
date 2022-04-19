@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: antiquewhite;
+}
+.container{
+    height: 497px;
+    width: 847px;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+ .child{
+     border-radius: 10px;
+ }
+ 
+
+.box-one{
+    background-color: whitesmoke;
+    text-align: center;
+   
+}
+
+.box-two{
+    background-color: rgba(220, 20, 60, 0.849);
+    color: white;
+    text-align: center;
+}
+
+.box-two h2{
+
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+input{
+
+    padding: 11px 34px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.box-one h2{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+button{
+    background-color: orange;
+    border-radius: 25px;
+    padding: 11px 43px;
+    border: none;
+    margin: 18px;
+}
+
+.practice-one{
+    margin-top: 5px;
+    padding: 50px 15px;
+}
+
+.practice-two{
+    margin-top: 50px;
+    padding: 50px 15px;
+
+}
+
+.fonts{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+section img{
+    margin-top: 5px;
+}
+
+.account{
+    padding: 25px;
+}
